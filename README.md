@@ -25,8 +25,6 @@ applab-senior-data-engineer-assessment/
 ├── README.md
 ├── notebooks/
 │   └── AppLab_Advanced_ETL_Pipeline.ipynb
-├── src/
-│   └── AppLab_Advanced_ETL_Pipeline.py
 ├── sql/
 │   └── AppLab_SQLServer_Setup_And_Verification.sql
 ├── scripts/
@@ -41,7 +39,7 @@ applab-senior-data-engineer-assessment/
     └── technical_decisions_and_assumptions.md
 ```
 
-The notebook (`.ipynb`) is the primary executed deliverable. The `.py` file is its plain Python source-code counterpart; it is not the SQL Server loader.
+The Databricks notebook (`.ipynb`) is the sole and primary ETL implementation deliverable. It contains the executable PySpark workflow together with its explanations and recorded execution outputs. No separate ETL `.py` source file is included in this submission.
 
 ## 3. Architecture: proposed versus implemented
 
